@@ -6,6 +6,6 @@
 <p align="center">Site desenvolvido para passar informações aos membros da igreja e aos demais. Temos como visão unir pessoas e espalhar a palavra de Deus para que juntos venhamos viver a eternidade com Cristo.</p>
 
 
-<footer align="center">Direitos reservados: Copyright &copy Mateus Pereira Rodrigues </footer>
+<footer align="center" >Direitos reservados: Copyright &copy Mateus Pereira Rodrigues </footer>
 
 
