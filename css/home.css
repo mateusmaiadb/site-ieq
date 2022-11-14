@@ -11,8 +11,8 @@ ul {
 body {
   background: #121214;
   background-image: url(./assets/bg.svg);
-  background-position-x: center;
-  background-position-y: -715px;
+  background-position: center;
+  background-size: cover;
 }
 
 body * {
@@ -20,8 +20,9 @@ body * {
 }
 
 #app {
+  padding-top: 52px;
   width: fit-content;
-  margin: 52px auto;
+  margin: auto;
 }
 
 header {
@@ -36,7 +37,7 @@ header img{
 
 #cards{
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 32px;
 }
 
