@@ -22,4 +22,4 @@ function createInfo(imagem, hour, details) {
 document.querySelector("#cards").innerHTML = createCard("19/11", "sábado", "Culto de casais - Noite Italiana" +
                                             createInfo("massa", "Horário: 19:30", "Igreja Local"))
                                           + createCard("26/11", "sábado", "Festa da multiplicação" +
-                                            createInfo("festa", "Horário: 19:30", "Igreja"))
+                                            createInfo("festa", "Horário: 19:30", "Igreja Local"))
