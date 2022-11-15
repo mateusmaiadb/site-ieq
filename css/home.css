@@ -34,6 +34,7 @@ header img{
 }
 
 #cards{
+  padding: 25px;
   display:flex;
   flex-direction: row;
   gap: 32px;
@@ -75,7 +76,6 @@ header img{
 }
 
 .card h2 span {
-  color: #e1e1e6;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -123,7 +123,14 @@ p{
 
 
 
-footer p {
-  padding: 20px;
+footer p{
+  padding: 40px;
   text-align: center;
+}
+
+footer img{
+  width: 4vh;
+  text-align: center;
+  justify-items: center;
+  
 }
