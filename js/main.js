@@ -15,7 +15,7 @@ function createInfo(imagem, hour, details) {
   return `
     <p>${details}</p>
     <li><img src="/img/icon=${imagem}.jpg" alt="Teste ${imagem}" /></li>
-    <li>${hour}</li>
+    <p>${hour}</p>
       `
 }
 
