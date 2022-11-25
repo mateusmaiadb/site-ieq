@@ -215,12 +215,4 @@ menu{
     border-radius: 10px;
   }
 
-
- 
-
-  #burger{
-    /* display: flex; */
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
 }
