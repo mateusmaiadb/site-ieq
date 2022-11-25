@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet" />
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <title>Tempo de Crescimento</title>
 </head>
@@ -19,13 +20,21 @@
     <header>
       <img src="/img/ieq-logo-celulas.jpg" alt="Logo da Igreja">
       <h1 class="titulo">Seja bem vindo(a)!</h1>
+      <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
+      <menu id="itens">
+        <ul class="nav-menu">
+          <li><a class="nav-link" href="" target="_blank" >Eventos</a></li>
+          <li><a class="nav-link" href="/pages/agenda-semana.html" >Agenda da semana</a></li>
+          <li><a class="nav-link" href="" target="_blank" >Agenda do mês</a></li>
+          <li><a class="nav-link" href="" target="_blank" >Nossas células</a></li>
+        </ul>
+      </menu>
       <br>
-      <p>Aqui está a nossa agenda de novembro</p>
+      <p>Aqui está a nossa agenda de novembro.</p>
+      <p>Cultos todos os domingos às 10:00 horas da manhã, participe!</p>
     </header>
 
     <main id="cards"></main>
-
-       
 
     <footer>
       <div >
@@ -38,6 +47,8 @@
 
 
   <script src="/js/main.js"></script>
+
+ 
 </body>
 
 </html>
