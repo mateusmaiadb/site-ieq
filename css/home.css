@@ -200,6 +200,7 @@ menu{
 
 @media screen and (max-width: 525px){
   #cards{
+    align-items: center;
     padding: 5px;
     display:flex;
     flex-direction: column;
@@ -214,23 +215,8 @@ menu{
     border-radius: 10px;
   }
 
-  .card h2 {
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-    align-items: center;
-    
-    padding: 8px 16px;
-    border: 1px solid #746615;
-    border-radius: 6px;
-    
-    width: fit-content;
-    margin-inline: auto;
-    
-    margin-bottom: 53px;
-    
-    color: #f7dd43;
-  }
+
+ 
 
   #burger{
     /* display: flex; */
